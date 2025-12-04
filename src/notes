@@ -1,0 +1,33 @@
+Notes from the document ai overview and whatnot,
+
+there is a doc preparation stage, that uses ocr to extract text and whatnot from text and whatnot
+classification that I can add in, maybe more relevant to engineering work and the like
+entity extraction, form parser, custom schemas, normalization, training evaluation datasets and whatnot
+https://cloud.google.com/use-cases/ocr
+
+
+
+===
+Processor
+A Document AI processor lies between the document file and a ML model that performs the doc
+processing and understanding action, classify and whatnot
+
+THese procesors will fit into, digitize OCR, extract, a custom extractor, and pretrained parsers,
+classify with custom splitters;
+
+I think the best, at least for the sake of the project will simply to be the OCR to keep it generally
+; the documents won't have a specific layout generally, so document ocr makes the most snes ehere for sure
+https://docs.cloud.google.com/document-ai/docs/overview
+
+---
+https://docs.cloud.google.com/document-ai/docs/processors-list
+Alright, starting to do the stuff, choosing a processor that is suitable for the use case
+1. Choose a processor: Enterprise Document OCR (Optical Character Recognition);
+will likely use a pretrained one there
+
+VERSION_ID: "pretrained-ocr-v2.1.1-2025-01-31"
+
+--installing the cloud items? going to watch a few vids from google instead of drowning in documentation... LOL
+
+
+
