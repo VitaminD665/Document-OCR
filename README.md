@@ -27,8 +27,9 @@ Containerized Python FastAPI for REST API endpoints, deployed on Google Cloud Ru
 
 #### Database:
 
-Currently MongoDB (NoSQL) to host transaction records?
+Currently, MongoDB (NoSQL) to host transaction records?
 
+Current configuration should have container concurrency of only 
 
 
 
