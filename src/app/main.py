@@ -1,7 +1,6 @@
 """ Entry point for the fastapi application"""
 
 
-
 import logging
 
 
@@ -70,7 +69,10 @@ def get_job_result():
 
 
 
-
+app.get("/v1/smoke_test_backend")
+def smoke_test_container():
+    """ Check the health of the container. Will likely be better suited for integration tests."""
+    return { "Service": "Healthy"}
 
 
 
