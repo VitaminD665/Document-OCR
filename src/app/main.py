@@ -29,7 +29,7 @@ docx_tool = DocxTool()
 ocr_engine = DocumentOCR(
     OCRArguments(
         languages=("en",),
-        gpu=False,
+        is_gpu=False,
         min_confidence=0.30,
         paragraph=False,
     )
